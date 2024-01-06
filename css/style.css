@@ -3,3 +3,117 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+header{
+    text-align: right;
+    padding: 13.5rem 13rem 10.38rem 0;
+    background-image: url('../img/banner/banner1.png');
+    background-position: center;
+    
+}
+header h2{
+    color: #151414;
+font-size: 4.0625rem;
+font-weight: 700;
+margin-bottom: 0;
+}
+header p{
+color: #444343;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem;
+margin-top: 1.5rem;
+}
+header button{
+    background-color: #F15B22;
+    padding: 1.3rem 1.63rem;
+    border-radius: 0.3125rem;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+main{
+    background-color: #ffffff;
+    padding: 0 13rem 8rem 13rem;
+}
+.my-info{
+    display: flex;
+    justify-content: center;
+    padding: 8.75rem 0;
+    align-items: center;
+    gap: 3rem;
+}
+.my-failures h3{
+color: #151414;
+font-size: 2.5rem;
+font-weight: 700;
+}
+.my-failures p, li{
+    color: #444343;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+.my-failures p{
+    margin-top: 1.5rem;
+}
+.my-failures ul{
+    margin-top: 1rem;
+}
+.my-failures li{
+    margin-top: .5rem;
+}
+.my-plans h2{
+    color: #151414;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.my-plans .card-section{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.card-section .card h3{
+ margin-top: 1.14rem;
+color: #151414;
+font-size: 1.65rem;
+font-weight: 700;
+}
+.card-section .card p{
+    margin-top: 1rem;
+color: #737272;
+font-size: 1.3rem;
+font-weight: 500;
+}
+.contact{
+    margin-top: 8rem;
+    border-radius: .5rem;
+    background-image: url(../img/gradient3.png), url(../img/watch.png);
+    background-position: center;
+    padding: 3.69rem 0 3.69rem 4rem;
+}
+.contact h2{
+ color: #FFFFFF;
+font-size: 2rem;
+font-weight: 700;
+}
+.contact button{
+padding: 1.3rem 2.25rem;
+border-radius: 0.3125rem;
+background-color: #FFFFFF;
+font-size: 1.25rem;
+color: #F15B22;
+border: none;
+margin-top: 1.5rem;
+}
+footer{
+    background-color: #151414;
+    padding: 8rem 13rem;
+    display: flex;
+    justify-content: space-between;
+}
