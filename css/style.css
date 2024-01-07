@@ -117,3 +117,47 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.future h3{
+    color: #F8F8F8;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+.future p{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-top: 1.5rem;
+}
+.socil-icon{
+    margin-top: 2rem;
+}
+.socil-icon img{
+    margin-left: 1rem;
+}
+.subscribe h3{
+    color: #FFF;
+    font-size: 1.5625rem;
+}
+input{
+    padding: 1.3rem 1.3rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color: #F3F3F3;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 1.9rem;
+}
+.subscribe button{
+    padding: 1.25rem 2.25rem;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    color: #F15B22;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+}
